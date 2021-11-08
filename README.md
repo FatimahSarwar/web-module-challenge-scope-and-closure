@@ -61,6 +61,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+- A closure happens when an inner function reaches into an outer function to grab a value defined in the outer function. It is code that is created elsewhere that we can use later. We can pass values down the chain of inheritance but never pass them back up!
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,6 +83,7 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+-console.log(`${name}- this is wehre the inner function reached out to the outer function to grab a value or data from it.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 c. What is the lexical scope of `newRoll`? 
 
